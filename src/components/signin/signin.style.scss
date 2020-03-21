@@ -1,4 +1,13 @@
 .sign-in {
-  margin-top: 60px;
   width: 30vw;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .subtitle {
+    color: rgb(83, 83, 83);
+  }
 }
