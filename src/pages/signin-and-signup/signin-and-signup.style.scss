@@ -1,3 +1,21 @@
 .signin-and-signup {
-  padding: 25px 0;
+  // margin: 0 auto;
+  // padding: 25px 0;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-around;
+
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 970px) {
+  .signin-and-signup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
